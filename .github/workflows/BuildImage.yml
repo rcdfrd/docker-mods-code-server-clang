@@ -39,7 +39,5 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            rcdfrd/docker-mods-code-server-clang:latest
-            rcdfrd/docker-mods-code-server-clang:1.0.0
-            ghcr.io/rcdfrd/docker-mods-code-server-clang:latest
-            ghcr.io/rcdfrd/docker-mods-code-server-clang:1.0.0
+            rcdfrd/mods:docker-mods-code-server-clang
+            ghcr.io/rcdfrd/mods:docker-mods-code-server-clang
